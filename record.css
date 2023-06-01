@@ -1,0 +1,96 @@
+.table-container{
+    background-color: #fefefe;
+    width: 90%;
+    margin-top: 50px;
+    border-radius: 2px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.7);
+}
+.table-container .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    position: relative;
+    height: 60px;
+    width: 100%;
+}
+
+.table-container .header form{
+    width: 60%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    box-shadow: none;
+    border-radius: 0px;
+    margin: 0;
+    position: absolute;
+    left: 20%;
+}
+.table-container .header form .search-box{
+    display: none;
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+.table-container .header form .search-box input[type = "search"]{
+    font-size: 17px;
+    border: 1px solid silver;
+    outline: none;
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid silver;
+    padding: 8px 18px;
+}
+.table-container .header form .search-box .icon{
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    transform: translateY(-50%);
+    width: 32px;
+    height: 32px;
+    color: white;
+    background-color: #5cff92;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.btn{
+    padding: 6px 10px;
+    font-size: 17px;
+    color: white;
+    background-color: #675cff;
+    margin-left: 20px;
+    border-radius: 4px;
+    border: 1px solid #675cff;
+}
+
+.table-container table{
+    width: 100%;
+    color: #444;
+    border-collapse: collapse;
+    border: 1px solid silver;
+    border-left: none;
+    border-right: none;
+}
+table tr{
+    border: 1px solid silver;
+    border-left: none;
+    border-right: none;
+}
+table td, table th{
+    text-align: center;
+    padding: 20px 15px;
+}
+.container nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
